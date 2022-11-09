@@ -53,29 +53,31 @@ a{
 
 .hero img{
     flex-grow: 1;
-    max-height: 200px;
+    max-height: 400px;
     max-width: 800px;
-}
-
-.hero h1, .hero p{
-    color: #f9faf8;
 }
 
 .hero h1{
     font-size: 48px;
+    color: #f9faf8;
     margin: 0;
 }
 
-.hero p{
+.hero p, .hero button{
     font-size: 18px;
+    color: #e5e7eb;
     margin: 0;
 }
 
-.hero .text{
-    /* text-align: center; */
+.hero button{
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+
+
 }
-
-
 
 .main{
     background-color: aqua;
