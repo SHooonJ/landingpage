@@ -4,7 +4,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px 0;
-    min-width: 500px;
+    /* min-width: 500px; */
     margin: 0;
 }
 
@@ -44,11 +44,13 @@ a{
     justify-content: center;
     align-items: center;
     padding: 50px;
+
+    flex-wrap: wrap;
 }
 
 .hero .text, .hero img{
     min-width: 0;
-    flex: 0 1 400px;
+    flex: 0 1 550px;
 }
 
 .hero img{
@@ -113,6 +115,7 @@ a{
 .main .info ul{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
